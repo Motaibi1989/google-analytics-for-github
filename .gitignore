@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local environment and credentials
+.env
+.env.*
+*.key
+*.pem
+*service-account*.json
+credentials.json
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
