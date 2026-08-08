@@ -1,0 +1,18 @@
+{
+  "status": "setup required",
+  "source": "Google Analytics 4",
+  "updated_at_utc": null,
+  "all_time": {
+    "start_date": null,
+    "end_date": null,
+    "total_users": 0,
+    "views": 0
+  },
+  "last_30_days": {
+    "start_date": null,
+    "end_date": null,
+    "active_users": 0,
+    "sessions": 0,
+    "views": 0
+  }
+}
