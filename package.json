@@ -1,0 +1,16 @@
+{
+  "name": "google-analytics-for-github",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Publish selected Google Analytics 4 statistics to GitHub using Node.js.",
+  "type": "commonjs",
+  "scripts": {
+    "stats": "node src/fetch_ga4.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@google-analytics/data": "^5.2.0"
+  }
+}
