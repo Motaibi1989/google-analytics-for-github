@@ -1,11 +1,12 @@
 {
-  "name": "google-analytics-for-github",
-  "version": "1.0.0",
+  "name": "ga4-github-stats-publisher",
+  "version": "1.1.0",
   "private": true,
-  "description": "Publish selected Google Analytics 4 statistics to GitHub using Node.js.",
+  "description": "Publish selected Google Analytics 4 aggregate statistics to GitHub as JSON and badge endpoints using Node.js.",
   "type": "commonjs",
   "scripts": {
-    "stats": "node src/fetch_ga4.js"
+    "stats": "node src/google_analytics_stats.js",
+    "start": "node src/google_analytics_stats.js"
   },
   "engines": {
     "node": ">=20"
